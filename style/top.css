@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: italic, Arial, sans-serif;
+}
+body{
+    background-color: #eee;
+}
+.title-Content{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+
+}
+.search form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-input{
+width: 500px;
+height: 35px;
+border-radius: 5px;
+border:0;
+outline: 0;
+padding: 15px;
+border-bottom: 1.5px solid #ccc;
+background-color: #ccc;
+}
+.search form button{
+    background-color: #193cc0;
+    width: 55px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart .total{
+    margin-right: 10px;
+}
+.cart .my-Cart{
+    cursor: pointer;
+    margin-right: 10px;
+    color: black;
+}
+
+.cart  #seller,
+.cart  button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 15px;
+    width: 100px;
+    height: 35px;
+    background-color: #193cc0;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s;
+}
+.nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid;
+}
+.nav-content .nav-bar ul{
+    list-style-type: none;
+    display: flex;
+    position: relative;
+}
+.nav-content .nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-content .nav-bar ul li {
+    cursor: pointer;
+    text-align: center;
+    margin-right: 50px;
+    transition: 0.9s;
+    border-bottom:1.5px solid transparent;
+
+}
+
+.nav-content .nav-bar ul li:hover{
+    border-bottom:1.5px solid black;
+}
+
+.nav-content .contact-n{
+    display: flex;
+    font-size: 40px;
+}
+.nav-content .contact-n .fa{
+    margin-right: 15px;
+}
+.nav-content .nav-bar ul li .pages{
+    width: 120px;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: #eee;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-content .nav-bar ul li .pages li{
+    margin: 10px 0;
+}
+.nav-content .nav-bar ul li .pages li:hover{
+    width: 100%;
+background-color:#ccc ;
+}
+.nav-content .nav-bar ul li .pages li a:hover{
+    width: 100%;
+background-color:#ccc ;
+}
+footer {
+    margin: 15px 40px;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #8196e3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+footer ul li a {
+
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: #193cc0;
+    padding: 5px 30px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+footer ul li a:hover {
+    color: white;
+}
+
+footer ul li {
+
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.8rem 1.5rem;
+
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.foot {
+    text-align: center;
+}
+
+.print {
+    text-align: center;
+}
+.cartIco{
+    position: relative;
+}
+.cartNum{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: orange;
+    position: absolute;
+    top: -25px;
+    left: -12px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    transition: 0.4s;
+}
+button:hover,
+.cart a:hover{
+    box-shadow: 2px 2px 2px black;
+}

@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Add{
+    position: absolute;
+    width: 70%;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 8px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.Add .inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px;
+}
+.Add .inputs input{
+    height: 35px;
+    outline: 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+.Add .fa{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: rgb(249, 35, 35);
+    padding: 7px 10px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #7d7d7d;
+}
+.Add .inputs .checkBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 15px;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.Add .inputs .checkBox select{
+    width: 180px;
+    height: 25px;
+}
+
+.Add .inputs textarea {
+    outline: 0;
+    border: 1px solid #ccc;
+    padding:  10px;
+    border-radius: 3px;
+}
+.Add .inputs button{
+    height: 30px;
+    font-weight:bold ;
+    background-color: #193cc0;
+    color: white;
+    outline: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;cursor: pointer;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.Pro h1{
+    width: 110px;
+    margin-left: 30px;
+    font-size:30px ;
+    border-bottom: 2px solid #ccc;
+}
+.Pro div.products{
+    width: 100%;
+    border-radius: 2px;    
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.item{
+    width: 23%;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+}
+.item div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.item img{
+    width: 100%;
+    height: 250px;
+
+}
+.item button{
+    margin-top: 15px;
+    width: 100%;
+    height: 35px;
+    background-color: #193cc0;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.desP{
+    width: 80%;
+    word-wrap: break-word;
+}
+.desP{
+    width: 80%;
+    word-wrap: break-word;
+}
