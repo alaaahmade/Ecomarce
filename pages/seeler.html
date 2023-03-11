@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <link rel="stylesheet" href="/style/top.css">
+    <link rel="stylesheet" href="../style/top.css">
     <link rel="stylesheet" href="../style/seller.css">
     <title>ECommerce</title>
 </head>
+
 <body>
     <section class="title-Content">
         <div class="logo">
@@ -20,23 +22,24 @@
             <button id="AdditionBtn">Add Product</button>
             <a id="seller" href="../index.html">Customer</a>
             <p class="total">$<span id="totalPrice">0.00</span></p>
-            <a class="cartIco" href="/pages/shops/cart.html"><i class="fa my-Cart fa-shopping-cart" aria-hidden="true"></i><span class="cartNum" id="cartNum"></span></a>
+            <a class="cartIco" href="shops/cart.html"><i class="fa my-Cart fa-shopping-cart"
+                    aria-hidden="true"></i><span class="cartNum" id="cartNum"></span></a>
 
         </div>
     </section>
     <section class="nav-content">
         <div class="nav-bar">
             <ul>
-                <li><a href="/index.html">Home</a></li>
+                <li><a href="../index.html">Home</a></li>
                 <li> <span id="shop">Shop</span>
                     <ul class="pages" id="pages">
-                        <li><a href="/pages/shops/phone.html">Phone</a></li>
-                        <li><a href="/pages/shops/tv.htm">TV</a></li>
-                        <li><a href="/pages/shops/headphone.html">HeadPhone</a></li>
+                        <li><a href="shops/phone.html">Phone</a></li>
+                        <li><a href="shops/tv.htm">TV</a></li>
+                        <li><a href="shops/headphone.html">HeadPhone</a></li>
                     </ul>
                 </li>
-                <li><a href="/pages/About.html">About</a></li>
-                <li><a href="/pages/contact.html">Contact</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
         <div class="contact-n">
@@ -46,7 +49,7 @@
     </section>
     <section class="Pro">
         <h1>My Products</h1>
-        <div class="products"id="products">
+        <div class="products" id="products">
 
         </div>
     </section>
@@ -56,27 +59,27 @@
             <input type="text" placeholder="Product Name" id="name" required>
             <input type="number" placeholder="Product Price" id="price" required>
             <input type="text" placeholder="Product img URL" id="img" required>
-            <div class="checkBox" >
+            <div class="checkBox">
                 <h3>Category</h3>
                 <div class="check">
-                <select name="category" id="category" required>
-                    <option value="TV">TV</option>
-                    <option value="headphone">headphone</option>
-                    <option value="phone">phone</option>
-                </select>
+                    <select name="category" id="category" required>
+                        <option value="TV">TV</option>
+                        <option value="headphone">headphone</option>
+                        <option value="phone">phone</option>
+                    </select>
 
                 </div>
             </div>
             <textarea required name="Des" id="des" cols="30" rows="5" placeholder="Description"></textarea>
             <button id="addition">Addition</button>
             <button style="display: none;" id="save">save</button>
-            
+
         </form>
     </section>
-    <footer >
+    <footer>
         <div class="container-footer">
             <ul>
-                <li class="btn"><a href="https://www.freecodecamp.org/alaaahmade" target="_blank" >Freecodecamp</a></li>
+                <li class="btn"><a href="https://www.freecodecamp.org/alaaahmade" target="_blank">Freecodecamp</a></li>
                 <li class="btn"><a href="https://github.com/alaaahmade" target="_blank">Github</a></li>
                 <li class="btn"><a href="https://www.codewars.com/users/alaaahmade" target="_blank">Codewars</a></li>
             </ul>
@@ -87,9 +90,10 @@
             </div>
         </div>
     </footer>
-    <script src="js/products.js" type="module"></script>
+    <script src="../js/products.js" type="module"></script>
     <script src="../js/main.js"></script>
     <script src="../js/seller.js"></script>
 
 </body>
+
 </html>
