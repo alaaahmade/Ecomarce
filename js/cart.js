@@ -32,7 +32,7 @@ const addFromLocale = (arr)=>{
         btnDiv.classList.add("buttons")
         const button =document.createElement("button");
         button.id = "Remove"
-        button.textContent = "Remover";
+        button.textContent = "Remove";
         item.appendChild(img);
         item.appendChild(divp);
         item.appendChild(description);
